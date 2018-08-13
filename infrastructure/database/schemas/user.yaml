@@ -1,0 +1,49 @@
+table: user
+     
+columns:
+    - name: id
+      type: 
+        datatype: integer
+      options:
+        notnull: true
+        autoincrement: true
+    - name: email
+      type: 
+        datatype: varchar
+        length: 100
+      options:
+        notnull: true
+        unique: true
+    - name: password
+      type: 
+        datatype: varchar
+        length: 100
+      options:
+        notnull: true
+    - name: firstname
+      type: 
+        datatype: varchar
+        length: 100
+    - name: lastname
+      type: 
+        datatype: varchar
+        length: 100
+    - name: address
+      type: 
+        datatype: varchar
+        length: 100
+    - name: city
+      type: 
+        datatype: varchar
+        length: 100
+    - name: country
+      type: 
+        datatype: varchar
+        length: 100
+    - name: creationDate
+      type:
+        datatype: datetime
+
+    
+
+      
